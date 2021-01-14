@@ -3,17 +3,14 @@ import Persion from "./component/Persion";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+      <header>
+        <a>
           Learn React
         </a>
       </header>
-      <Persion > </Persion> 
+      <Persion name="Duyen" age="23"> </Persion> 
+      <Persion name="Duyen" age="23"> My hobbie: Teacher </Persion> 
+      <Persion name="Duyen" age="23"> </Persion> 
     </div>
   );
 }
